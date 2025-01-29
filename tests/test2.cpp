@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cassert>
-#include "operaciones2.h"
+#include "/workspaces/ActClase3/operaciones2.h"
 using namespace std;
 
 void test2() {

@@ -33,7 +33,9 @@ if(ENABLE_TESTING)
     )
 
     # Crear ejecutable de pruebas
+    set(TEST_SOURCES test.cpp test1.cpp test2.cpp)
     add_executable(test_suite ${TEST_SOURCES})
+
 
     # Enlazar GoogleTest
     target_link_libraries(test_suite PRIVATE gtest gtest_main)
